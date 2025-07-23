@@ -1,0 +1,21 @@
+<!-- Header -->
+<header style="background-color: #1976d2; color: white; padding: 20px; text-align: center;">
+  <h1>{{ title }}</h1>
+</header>
+
+<!-- Main Content -->
+<main style="padding: 20px; text-align: center;">
+  <div style="max-width: 800px; margin: 0 auto;">
+    <img [src]="imageUrl" alt="Sample Image" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
+
+    <div style="margin-top: 20px;">
+      <h2>About This Site</h2>
+      <p>{{ description }}</p>
+    </div>
+  </div>
+</main>
+
+<!-- Footer -->
+<footer style="background-color: #f1f1f1; color: #555; text-align: center; padding: 15px; margin-top: 40px;">
+  <p>&copy; {{ getCurrentYear() }} My Angular Website. All rights reserved.</p>
+</footer>
